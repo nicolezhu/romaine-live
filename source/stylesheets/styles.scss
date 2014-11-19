@@ -62,9 +62,11 @@ li {
 .outLog {
     background-color: orange;
 }
+
 span:hover {
     cursor: pointer;
 }
+
 .courseDescriptions {
     text-align: center;
     display: none;
@@ -88,81 +90,79 @@ body{
 #nav {
      background-color: #acd9ae;
      margin: 0;
-     height:150px;
+     height: 150px;
 }
 
 .nav-section{
-    display:inline-block;
-    text-align:center;
-    padding-top:20px;
+    display: inline-block;
+    text-align: center;
+    padding-top: 20px;
 }
 
 #logo{
-    height:30px;
-    margin:0;  
+    height: 30px;
+    margin: 0;  
 }
 
 #user-nav{
-    float:right;
+    float: right;
 }
 
-#user-nav ul{
-    margin:0;
-    padding:0;
-    list-style:none;
+#user-nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
 }
 
 #user-nav ul > li{
-    display:inline-block;
+    display: inline-block;
 }
 
 #current-user{
-    font-size:17px;
-    font-family:"Droid Sans", sans-serif;
-    color:white;
-    margin:0;
+    font-size: 17px;
+    font-family: "Droid Sans", sans-serif;
+    color: white;
+    margin: 0;
 }
 
 .log {
-    text-decoration:none;
-    padding:10px;
-    border:1px solid white;
-    font-size:17px;
-    color:white;
-    font-family: "Signika";
+    text-decoration: none;
+    padding: 10px;
+    border: 1px solid white;
+    font-size: 17px;
+    color: white;
+    font-family: "Signika", sans-serif;
 }
 
 .container{
-    float:right;
+    float: right;
 }
 
 #schools ul>li{
-    display:inline-block;
+    display: inline-block;
 }
 
 .chooseSchool{
-    padding:15px;
-    margin:35px;
-    font-size:20px;
-    font-family: "Signika";
-    color:white;
-    border:1px solid white;
-    background-color:gray;
+    padding: 15px;
+    margin: 35px;
+    font-size: 20px;
+    font-family: "Signika", sans-serif;
+    color: white;
+    border: 1px solid white;
+    background-color: gray;
 }
 
 .courseButtons{
-    border:2px solid white;
-    padding:15px;
-    background-color:#f0f0f0;
-    font-family:"Droid Sans";
-    font-size:15px;
+    border: 2px solid white;
+    padding: 15px;
+    background-color: #f0f0f0;
+    font-family: "Droid Sans";
+    font-size: 15px;
 }
 
 .courseDescriptions{
-    text-align:left;
-    padding:10px;
-    font-family:"Droid Sans";
-    font-size:15px;
+    text-align: left;
+    padding: 10px;
+    font-family: "Droid Sans";
+    font-size: 15px;
 }
-
-
