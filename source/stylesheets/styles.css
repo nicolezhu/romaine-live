@@ -1,0 +1,168 @@
+@import url(http://weloveiconfonts.com/api/?family=entypo);
+
+/* entypo */
+[class*="entypo-"]:before {
+  font-family: 'entypo', sans-serif;
+}
+
+/*body {
+    background: #eee;
+    text-align: center;
+    padding: 0 25px;
+}
+
+#main {
+    width: 500px;
+    margin: auto;
+    text-align: left;
+    background: white;
+    padding: 50px 60px;
+    border: solid #ddd;
+    border-width: 0 1px 1px 1px;
+}
+
+#main h1 {
+    margin-top: 0;
+    font-size: 35px;
+}
+
+#main ul {
+    padding-left: 20px;
+}
+
+#main .error {
+    border: 1px solid red;
+    background: #FDEFF0;
+    padding: 20px;
+}
+
+#main .success {
+    margin-top: 25px;
+}
+
+#main .success code {
+    font-size: 12px;
+    color: green;
+    line-height: 13px;
+}*/
+
+/*
+DON'T TOUCH*/
+
+ul {
+    padding: 0;
+}
+li {
+    list-style-type: none;
+}
+.inLog {
+    background-color: blue;
+}
+
+.outLog {
+    background-color: orange;
+}
+span:hover {
+    cursor: pointer;
+}
+.courseDescriptions {
+    text-align: center;
+    display: none;
+}
+
+#logIn {
+    display: none;
+}
+
+#logOut {
+    display: none;
+}
+
+/*END OF DON'T TOUCH*/
+
+body{
+    margin:0;
+    background-color: #f0f0f0;
+}
+
+#nav {
+     background-color: #acd9ae;
+     margin: 0;
+     height:150px;
+}
+
+.nav-section{
+    display:inline-block;
+    text-align:center;
+    padding-top:20px;
+}
+
+#logo{
+    height:30px;
+    margin:0;  
+}
+
+#user-nav{
+    float:right;
+}
+
+#user-nav ul{
+    margin:0;
+    padding:0;
+    list-style:none;
+}
+
+#user-nav ul > li{
+    display:inline-block;
+}
+
+#current-user{
+    font-size:17px;
+    font-family:"Droid Sans", sans-serif;
+    color:white;
+    margin:0;
+}
+
+.log {
+    text-decoration:none;
+    padding:10px;
+    border:1px solid white;
+    font-size:17px;
+    color:white;
+    font-family: "Signika";
+}
+
+.container{
+    float:right;
+}
+
+#schools ul>li{
+    display:inline-block;
+}
+
+.chooseSchool{
+    padding:15px;
+    margin:35px;
+    font-size:20px;
+    font-family: "Signika";
+    color:white;
+    border:1px solid white;
+    background-color:gray;
+}
+
+.courseButtons{
+    border:2px solid white;
+    padding:15px;
+    background-color:#f0f0f0;
+    font-family:"Droid Sans";
+    font-size:15px;
+}
+
+.courseDescriptions{
+    text-align:left;
+    padding:10px;
+    font-family:"Droid Sans";
+    font-size:15px;
+}
+
+

@@ -1,10 +1,40 @@
 ---
-title: Welcome to Middleman
+title: Romaine
 ---
 
-<div class="welcome">
-  <h1>Middleman is Watching</h1>
-  <p class="doc">
-    <%= link_to "Read Online Documentation", "http://middlemanapp.com/" %>
-  </p><!-- .doc -->
-</div><!-- .welcome -->
+<div id="nav">
+	<div class="nav-section"> <!-- logo -->
+		<a href="#"><img src="images/logowhite.png" id="logo"></a>
+	</div>
+	<div id="user-nav" class="nav-section">
+		<ul>
+			<li><p id="current-user"></p></li>
+			<li><button type="button" id="logIn" class="log">LOG IN</button></li>
+			<li><button type="button" id="logOut" class="log">LOG OUT</button></li>
+		</ul>
+	</div>	
+</div>
+
+<div id="fb-root"></div>
+<div class="container">
+</div>
+<div id="schools">
+	<h1>Choose a School</h1>
+	<!-- will later be in the js in order to link to API - for now it's here for styling purposes -->
+	<ul>
+		<li><button type="button" class="chooseSchool">WEINBERG</button><li>
+		<li><button type="button" class="chooseSchool">SCHOOL OF COMM</button><li>
+		<li><button type="button" class="chooseSchool">MEDILL</button><li>
+		<li><button type="button" class="chooseSchool">MCCORMICK</button><li>
+		<li><button type="button" class="chooseSchool">SESP</button><li>
+		<li><button type="button" class="chooseSchool">BIENEN</button><li>
+	</ul>
+</div>
+<div id="allCourses">
+	<h1>All Courses</h1>
+	<ul id="courses">
+	</ul>
+</div>
+<div id="myCourses">
+	<h1>My Saved Courses</h1>
+</div>
