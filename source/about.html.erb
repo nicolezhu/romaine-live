@@ -1,0 +1,65 @@
+---
+title: Romaine - Class Selection Made Easy
+---
+
+<nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+      <a class="navbar-brand" href="/">ROMAINE</a>
+    </div>
+    <div id="navbar" class="navbar-collapse collapse">
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="/about">About</a></li>
+        <li><a onclick="window.open('/subjectcodes', 'newwindow', 'width=500, height=700');">Subject Codes</a></li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+          <li class="prof-pic"></li>
+    <li><a href="#" id="logIn">Log In</a></li>
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false"><span id="current-user"></span> <span class="caret"></span></a>
+          <ul class="dropdown-menu" role="menu">
+            <li><a href="/savedcourses">Saved Courses</a></li>
+            <li><a href="/" id="log-out">Sign Out</a></li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+  <div id="fb-root"></div>
+  <div class="container">
+  </div>
+  <div class="mainContent">
+      <h1>About</h1> 
+      <br />
+      <div class="about-description">
+        <h4>What is Romaine?</h4>
+        <p>Romaine makes course selection social for Northwestern students. Romaine uses the Facebook API and the <a href="http://developer.asg.northwestern.edu" target="_blank">Northwestern Course Data API</a> to help you search for the classes you need to take and connect you with the people you want to take them with.</p>
+        <br />
+        <h4>How do I use Romaine?</h4>
+        <p>Sign in using Facebook and add the classes you are interested taking. Rather than fighting <a href="www.northwestern.edu/caesar/" target="_blank">CAESAR's</a> limited search results and inability to open new tabs, use Romaine to search for classes either by subject code and course number or by school and major. To add a class, simply click on the course button. To see details about the class such as the instructor or location, click the arrow next to the course button to see more information.</p>
+        <p><a href="courses.html">See</a> the classes you've added. Any Facebook friend who has saved the same class will appear next to the saved course like so: </p>
+        <br />
+        <img src="images/friends.png" width="80%"/>
+        <p>
+        <br />
+        <h4>What are subject codes?</h4>
+        <p>Subject codes are assigned to each unique subject at Northwestern (i.e. the subject code EECS refers to the subject "Electrical Engineering and Computer Science"). To search for specific classes within a subject, use the corresponding subject code. For a full list of subject codes, refer to <a href="subjectcodes.html" target="_blank">this guide</a>.</p>
+        <br />
+        <h4>What's next?</h4>
+        <p>Romaine currently allows you to add and delete classes you're interested in taking, and see which of your Facebook friends are in classes you've added. In the future, we hope to build out Romaine to be able to see which classes your friends have taken in the past.</p>
+        <br />
+        <h4>Why is it called Romaine?</h4>
+        <p>It was either <a href="https://en.wikipedia.org/wiki/Caesar_salad" target="_blank">this or Crouton</a>.</p>
+        </br>
+        <h4>Who should I contact for questions or comments?</h4>
+        <p>Romaine was built by <a href="http://twitter.com/suymilk" target="_blank">Suyeon Son</a>, <a href="http://twitter.com/nicolelzhu" target="_blank">Nicole Zhu</a>, <a href="http://twitter.com/ashhwu" target="_blank">Ashley Wu</a> and <a href="http://twitter.com/yeamal" target="_blank">Mallory Busch</a> as part of the <a href="http://knightlab.northwestern.edu" target="_blank">Knight Lab</a> student fellowship.</p>
+        <p>Send us an <a href="mailto:nicolezhu2016@u.northwestern.edu">email</a> with your feedback!</p>
+      </div>
+  </div>

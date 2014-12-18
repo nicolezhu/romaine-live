@@ -1,40 +1,107 @@
 ---
-title: Romaine
+title: Romaine - Class Selection Made Easy
 ---
 
-<div id="nav">
-	<div class="nav-section"> <!-- logo -->
-		<a href="#"><img src="images/logowhite.png" id="logo"></a>
-	</div>
-	<div id="user-nav" class="nav-section">
-		<ul>
-			<li><p id="current-user"></p></li>
-			<li><button type="button" id="logIn" class="log">LOG IN</button></li>
-			<li><button type="button" id="logOut" class="log">LOG OUT</button></li>
-		</ul>
-	</div>	
-</div>
-
+<nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+  <div class="container-fluid">
+    <div class="navbar-header">
+    	<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+      	</button>
+      <a class="navbar-brand active" href="/">ROMAINE</a>
+    </div>
+    <div id="navbar" class="navbar-collapse collapse">
+      <ul class="nav navbar-nav">
+        <li><a href="/about">About</a></li>
+        <li><a onclick="window.open('/subjectcodes', 'newwindow', 'width=500, height=700');">Subject Codes</a></li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+      		<li class="prof-pic"></li>
+			<li><a href="#" id="logIn">Log In</a></li>
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false"><span id="current-user"></span> <span class="caret"></span></a>
+          <ul class="dropdown-menu" role="menu">
+            <li><a href="/savedcourses">Saved Courses</a></li>
+            <li><a href="/" id="log-out">Sign Out</a></li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
 <div id="fb-root"></div>
+
 <div class="container">
 </div>
-<div id="schools">
-	<h1>Choose a School</h1>
-	<!-- will later be in the js in order to link to API - for now it's here for styling purposes -->
-	<ul>
-		<li><button type="button" class="chooseSchool">WEINBERG</button><li>
-		<li><button type="button" class="chooseSchool">SCHOOL OF COMM</button><li>
-		<li><button type="button" class="chooseSchool">MEDILL</button><li>
-		<li><button type="button" class="chooseSchool">MCCORMICK</button><li>
-		<li><button type="button" class="chooseSchool">SESP</button><li>
-		<li><button type="button" class="chooseSchool">BIENEN</button><li>
-	</ul>
-</div>
-<div id="allCourses">
-	<h1>All Courses</h1>
-	<ul id="courses">
-	</ul>
-</div>
-<div id="myCourses">
-	<h1>My Saved Courses</h1>
+
+<div class="mainContent">
+	<div id="content">
+	    <ul id="tabs" class="nav nav-pills" data-tabs="tabs">
+	    	<li class="active"><a href="#search-by-school" data-toggle="tab">Search by school</a></li>
+	        <li><a href="#search-by-subject-code" data-toggle="tab">Search by subject code</a></li>   
+	    </ul>
+	    <div id="my-tab-content" class="tab-content">
+	        <div class="tab-pane" id="search-by-subject-code">
+	            <div id="searchSection">
+				<h2>Know which course to search for?</h2>	
+				<div class="col-md-12 col-xs-12" id="searchBar">
+					<input id="searchText" type="text" size="50">
+				</div>
+				<div>
+					<p id="info">Enter exact subject code and course number. <em>Ex. JOUR 301</em>
+					</p>
+				</div>
+				<div class="row clear">
+					<div class="col-md-12">
+						<span class="entypo-trash" id="clear-subject-results" title="Clear Results"></span>
+					</div>				
+				</div>				
+				<div id="searchResults" >
+					<ul id="resultCourses" class="list-unstyled">
+					</ul>
+				</div>
+			</div>
+	        </div>
+
+	        <div class="tab-pane active" id="search-by-school">
+	            <div id="schools">
+				<h2 class="col-md-12">Choose schools to explore courses.</h2>
+				<div class="row section">
+					<div class="col-md-12">
+						<ul id="schoolsButtons" class="list-unstyled">
+							<li><button type="button" class="WCAS chooseSchool col-md-3 col-xs-6">Weinberg</button></li>
+							<li><button type="button" class="SPCH chooseSchool col-md-3 col-xs-6">Comm</button></li>
+							<li><button type="button" class="JOUR chooseSchool col-md-3 col-xs-6">Medill</button></li>
+							<li><button type="button" class="MEAS chooseSchool col-md-3 col-xs-6">McCormick</button></li>
+							<li><button type="button" class="MUSIC chooseSchool col-md-3 col-xs-6">Bienen</button></li>
+							<li><button type="button" class="KGSM chooseSchool col-md-3 col-xs-6">Kellogg</button></li>
+							<li><button type="button" class="SESP chooseSchool col-md-3 col-xs-6">SESP</button></li>			
+							<li><button type="button" class="UC chooseSchool col-md-3 col-xs-6">Continuing</button></li>			
+						</ul>
+					</div>
+				</div>
+				<div class="row clear">
+					<div class="col-md-12">
+						<span class="entypo-trash" id="clear-school-results" title="Clear Results"></span>
+					</div>				
+				</div>
+				<div class="row section">
+					<div class="col-md-12">				
+						<ul id="exploreResultSubjects" class="list-unstyled">
+						</ul>
+					</div>
+				</div>
+				<div class="row section">
+					<div class="col-md-12">				
+						<ul id="exploreResultCourses" class="list-unstyled">
+						</ul>
+					</div>						
+				</div>	
+			</div>
+	        </div>
+	    </div>
+	</div>
 </div>

@@ -1,0 +1,416 @@
+@import url(http://weloveiconfonts.com/api/?family=entypo);
+
+[class*="entypo-"]:before {
+  font-family: 'entypo', sans-serif;
+  font-size: 1.5em;
+}
+
+span:hover {
+    cursor: pointer;
+}
+
+.courseDescriptions {
+    text-align: center;
+    display: none;
+}
+
+#logIn {
+    display: none;
+    display: inline-block;
+}
+
+#logOut {
+    display: none;
+}
+
+body {
+    margin:0;
+    font-family: 'Lato', sans-serif;
+}
+
+a:link{
+    text-decoration: none;
+}
+
+a:hover {
+    cursor: pointer;
+}
+
+.section {
+    margin-bottom: 10px;
+}
+
+.navbar-default {
+    background-color: #0b9f55;
+}
+
+.navbar-default .navbar-collapse {
+    border-color: #0b9f55;
+}
+
+.navbar-default .navbar-brand {
+    color: #fff;
+    font-weight: 400;
+    letter-spacing: 3px;
+}
+
+.navbar-default .navbar-nav > li > a {
+    color: #fff;
+}
+
+.navbar-default .navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a:hover, .navbar-default .navbar-nav>.open>a:focus {
+    color: #fff;
+    background-color: #0b9f55;
+}
+
+.navbar-default .navbar-nav > li > a:hover {
+    background-color: #0dbe66;
+    color: #fff;
+}
+
+.navbar-default .navbar-nav > .active > a {
+    background-color: #0dbe66;
+    color: #fff;
+}
+
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:hover, .navbar-default .navbar-nav>.active>a:focus {
+    background-color: #0dbe66;
+    color: #fff;
+}
+
+#logo{
+    height:40px;
+    margin:0;
+    padding-left:20px;
+}
+
+.dropdown-menu {
+    background-color: #0b9f55;
+    border-color: #0b9f55;
+}
+
+.dropdown-menu li a {
+    color: #fff;
+}
+
+.dropdown-menu li a:hover {
+    background-color: #0dbe66;
+    color: #fff;
+}
+
+.navbar-toggle {
+    background-color: #fff;
+}
+
+.navbar-default .navbar-nav .open .dropdown-menu>li>a {
+    color: #fff;
+}
+
+.navbar-default .navbar-nav .open .dropdown-menu>li>a:hover {
+    background-color: #0dbe66;
+    color: #fff;
+}
+
+h1 {
+    font-weight: 300;
+    text-transform: uppercase;
+}
+
+h4 {
+    font-weight: 600;
+
+}
+
+a {
+    color: #0b9f55;
+}
+
+a:hover {
+    color: #0b9f55;
+    text-decoration: underline;
+}
+
+.navbar-header .active {
+    background-color: #0dbe66;
+}
+
+.navbar-header .navbar-brand:hover {
+    background-color: #0dbe66;
+}
+
+#user-nav{
+    float:right;
+}
+
+#user-nav ul{
+    margin:0;
+    padding:0;
+    list-style:none;
+}
+
+#user-nav ul > li{
+    display:inline-block;
+}
+
+#current-user{
+    font-size:17px;
+    color:#fff;
+    margin:0;
+}
+
+.log {
+    text-decoration:none;
+    padding:10px;
+    border:1px solid white;
+    font-size:17px;
+    color:white;
+    font-family: "Lato";
+}
+
+.clear {
+    text-align: center;
+}
+
+#schoolsButtons li button:hover {
+    opacity: 0.6;
+}
+
+#resultCourses, #exploreResultCourses {
+    clear: left; 
+    text-align: left;
+}
+
+#exploreResultSubjects li button:hover {
+    opacity: 0.6;
+}
+
+.chooseSchool{
+    padding:10px;
+    font-size:15px;
+    color:white;
+    border:1.5px solid white;
+    height: 60px;
+}
+
+.courseButtons, .exploreButtons {
+    color: white;
+    border:1.5px solid white;
+    font-size:14px;
+}
+
+.exploreButtons {
+    height: 55px;
+}
+
+.courseButtons {
+    height: 51.5px;
+    margin: 1.5px 1.5px 1.5px 0;
+}
+
+.courseButtons:hover, .exploreButtons:hover, .chooseSchool:hover {
+    cursor: pointer;
+}
+
+.courseDescriptions {
+    text-align: left;
+    padding: 10px;
+    font-size: 14px;
+    background-color: #fafafa;
+}
+
+#searchResults {
+    width: 100%;
+}
+
+#searchSection {
+    height:100vh; 
+    text-align: center;   
+    padding-top: 20px;    
+}
+
+#searchBar {
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+#searchText {
+    width: 90%;
+    font-size:18px;
+    color:gray;
+    border:1.5px solid gray;
+}
+
+#myCourses .entypo-cancel, #myCourses .entypo-right-open-big, #myCourses .entypo-down-open-big {
+    padding: 10px;
+}
+
+.panel-body {
+    background-color: #fafafa;
+}
+
+p {
+    font-size: 14px;
+}
+
+.mainContent {
+    width: 80%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+h2{
+    font-family: "Lato";
+    letter-spacing: 0.8px;
+    font-size: 30px;
+    font-weight: 300;
+    text-transform: uppercase;
+}
+
+#schools h2{
+    text-align: center;
+    float:none;
+}
+
+#schools {
+    height:100vh;
+    padding-top:20px;
+}
+
+.friendsInClass {
+    margin: 10px 5px 0px 5px;
+    display: inline;
+}
+
+.views.entypo-right-open-big {
+    margin-top: 26px;
+}
+
+#seeMore{
+    color:white;
+    padding:5px;
+    border-radius: 50%;
+    background-color:gray;
+    width:80px;
+    height:80px;
+}
+
+#info {
+    color: gray;
+}
+
+.WCAS {
+    background-color: rgba(192,32,52, 1);
+}
+
+.SPCH {
+    background-color: rgba(65,182,171, 1);
+}
+
+.JOUR {
+    background-color: rgba(240,191,89, 1);
+}
+
+.MEAS {
+    background-color: rgba(155,183,214, 1);
+}
+
+.MUSIC {
+    background-color: rgba(89,92,161, 1);
+}
+
+.KGSM {
+    background-color: rgba(201,68,118, 1);
+}
+
+.SESP {
+    background-color: rgba(228,88,62, 1);
+}
+
+.UC {
+    background-color: rgba(222,205,191, 1);
+}
+
+.container {
+    padding-top: 100px;
+}
+
+.selected {
+    font-weight: 600;
+    opacity: 0.6;
+}
+
+.nav-pills {
+    border-bottom: 1px solid #ddd;
+}
+
+.about-description {
+    padding-bottom: 100px;
+}
+
+.about-description p {
+    font-size: 1.1em;
+}
+
+.about-description img {
+    padding-bottom: 20px;
+}
+
+td {
+    padding: 3px !important;
+}
+
+.subject-name {
+    font-weight: 600;
+}
+
+@media only screen and (max-width: 820px) {
+    #searchText {
+        width: 100%;
+    }
+    #searchBar {
+        text-align: center;
+    }
+}
+
+@media only screen and (max-width:767px) {
+    .courseButtons {
+        height: 60px;
+    }
+
+    .prof-pic img {
+        margin-left: 15px;
+    }
+
+    .about-description img {
+        width: 100%;
+    }
+}
+
+/* iPhone dimensions */
+
+@media only screen and (max-width:375px) {
+    .nav-pills li {
+        width: 45%;
+    }
+
+    .courseButtons {
+        width: 94%;
+        height: 80px;
+        padding: 5px;
+    }
+
+    .panel .courseButtons {
+        width: 100%;
+    }
+
+    .entypo-right-open-big, #myCourses .entypo-down-open-big {
+        margin-left: 5px;
+    }
+}
+
+@media only screen and (max-width:320px) {
+    .courseButtons {
+        height: 90px;
+    }
+}

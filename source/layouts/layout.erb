@@ -8,12 +8,15 @@
     
     <!-- Use title if it's in the page YAML frontmatter -->
     <title><%= current_page.data.title || "Romaine" %></title>
-    <link href='//fonts.googleapis.com/css?family=Signika:600|Rambla:400,700|Droid+Sans' rel='stylesheet' type='text/css'>
-    <script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
-    <script type="text/javascript" src="//www.parsecdn.com/js/parse-1.3.0.min.js"></script>
-    <script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
-    <%= stylesheet_link_tag "styles" %>
-    <%= javascript_include_tag  "fuse.min", "script" %>
+    <!-- favicon -->
+    <link href="img/favicon.ico" rel="shortcut icon" type="image/x-icon" />
+    <link href='http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900,100italic,300italic,400italic,700italic,900italic' rel='stylesheet' type='text/css'>
+    <!-- script -->
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+    <script type="text/javascript" src="http://www.parsecdn.com/js/parse-1.3.0.min.js"></script>
+    <script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+    <%= stylesheet_link_tag "bootstrap.min", "styles" %>
+    <%= javascript_include_tag  "bootstrap.min", "jquery.bootstrap-autohidingnavbar", "bootbox.min", "script" %>
   </head>
   
   <body class="<%= page_classes %>">
