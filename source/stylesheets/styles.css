@@ -1,4 +1,7 @@
-@import "//weloveiconfonts.com/api/?family=entypo";
+/*@import "//weloveiconfonts.com/api/?family=entypo";*/
+@import url("entypo.css");
+/*@import "font-awesome-sprockets";
+@import "font-awesome";*/
 
 [class*="entypo-"]:before {
   font-family: 'entypo', sans-serif;
