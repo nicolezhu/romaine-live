@@ -1,4 +1,4 @@
-@import url(//weloveiconfonts.com/api/?family=entypo);
+@import "//weloveiconfonts.com/api/?family=entypo";
 
 [class*="entypo-"]:before {
   font-family: 'entypo', sans-serif;
